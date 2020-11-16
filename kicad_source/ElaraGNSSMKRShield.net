@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/ElaraGNSSMKRShield/kicad_source/ElaraGNSSMKRShield.sch)
-    (date "So 15 Nov 2020 23:53:48 CET")
+    (date "Mo 16 Nov 2020 01:41:43 CET")
     (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,7 @@
       (tstamp 5F8A34DE))
     (comp (ref CN1)
       (value ARDUINO_MKR)
-      (footprint MODULE_compute:ARDUINO_MKR_HOLES)
+      (footprint MODULE_compute:ARDUINO_MKR_HOLES_PINHEADER)
       (libsource (lib MODULE_compute) (part ARDUINO_MKR) (description "Arduino MKR header"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F8A43BE))
@@ -230,7 +230,13 @@
       (footprint resistors:R_0603)
       (libsource (lib devices) (part R_0603) (description Resistor))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5FB5C060)))
+      (tstamp 5FB5C060))
+    (comp (ref L1)
+      (value Label)
+      (footprint labels:generationmake_small_solder)
+      (libsource (lib devices) (part Label) (description Label))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5FB4032F)))
   (libparts
     (libpart (lib CON_wuerth) (part 60312202114509)
       (description "WR-SMA PCB End Launch Jack Round Post for 1.6mm PCB")
@@ -339,6 +345,11 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib devices) (part Label)
+      (description Label)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) Label)))
     (libpart (lib devices) (part Led_Small)
       (description Led)
       (footprints
