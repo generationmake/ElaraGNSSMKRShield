@@ -46,8 +46,6 @@ SMA coax connector.
 |:-------:|:-------------:|:--------------------------------:|
 | center  | 1PPS          |                                  |
 | shield  | GND           |                                  |
-| 3       | I2C_SDA       |                                  |
-| 4       | I2C_SCL       |                                  |
 
 
 ## PCB
