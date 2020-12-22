@@ -11,7 +11,7 @@ Comp "generationmake"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 $Comp
 L RF_GPS:WIRL-POSI_Elara-I U2
@@ -1233,4 +1233,8 @@ F 3 "" H 3100 7600 60  0000 C CNN
 	1    3100 7600
 	1    0    0    -1  
 $EndComp
+Text Notes 7000 6900 0    43   ~ 0
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions
+Text Notes 500  650  0    50   ~ 0
+Copyright generationmake 2020\nsee full project documentation at https://github.com/generationmake/ElaraGNSSMKRShield
 $EndSCHEMATC
