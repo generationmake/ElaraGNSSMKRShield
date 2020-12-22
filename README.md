@@ -23,3 +23,7 @@ GNSS Shield with Wuerth Elara for Arduino MKR
  ### Arduino Libraries
 
 * [107-Arduino-NMEA-Parser](https://github.com/107-systems/107-Arduino-NMEA-Parser)
+
+## License
+
+This hardware is licensed under the CERN OHL v. 1.2

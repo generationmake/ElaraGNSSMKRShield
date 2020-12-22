@@ -1,0 +1,12 @@
+ElaraGNSSMKRShield - GNSS Shield with Wuerth Elara for Arduino MKR
+see full project documentation at https://github.com/generationmake/ElaraGNSSMKRShield
+
+changes
+
+version 0.1 - 2020-12-22
+* prototype release
+
+
+
+
+
